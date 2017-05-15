@@ -2,6 +2,7 @@
 <p>Find me in app/views/coaching/answer.html.erb</p>
 
 
-<h1><%= params[:query] %></h1>
+<h1><%= @question %></h1>
+<h2><%= @answer %></h2>
 
 <%= link_to "Ask another question", ask_path %>
